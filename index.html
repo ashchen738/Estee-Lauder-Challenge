@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<div lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#1E324D" />
+    <title>Estée Lauder - The Luxury Collection</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+
+  <div class="headerContainer" id="header">
+    <div class="headerList">
+      <div class="headerListItem">
+        <img src="logo.svg" alt="Estée Lauder" id="logo"/>
+      </div>
+      <div class="headerListItem">SHOP NOW</div>
+    </div>
+  </div>
+  <div class="videoContainer">
+    <video id="video" preload="auto">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="clickContainer">
+    <span class="clickText" onclick="playVid()">CLICK TO ENTER →</span>
+  </div>
+  <div class="titleContainer" id="title">
+    <div class="title">
+      <div class="firstTitle">Enter a New World</div>
+      <div class="secondTitle">THE LUXURY COLLECTION</div>
+      <div class="clickDown" onClick="scrollDown()">▼</div>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <div class="duskBackground" id="duskBackground1">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskPicture">
+            <img src="assets/Dream Dusk 1.png" alt="Dream Dusk Fragrance"/>
+          </div>
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Dream Dusk</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Dusk Stars.png" alt="4.6 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Walk through a garden in full bloom as flurries of Spring blossoms scent the air, illuminate the sky and exhilarate your senses. A dream without end that leads you into the beauty of dusk.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2" id="duskPicture">
+        <img src="assets/Dream Dusk 2.png" alt="Cherry Blossoms" />
+      </div>
+    </div>
+    <div class="duskBackground tenderBackground" id="duskBackground2">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Tender Light</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Tender Stars.png" alt="4.1 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              In a burst of pure light be lifted into a palace of dreams. A golden realm of the senses that captures the warmth and joy that sunlight makes you feel. Awakening, illuminating and energizing. Leaving you feeling radiantly alive.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+          <div class="duskPicture">
+            <img src="assets/Tender 1.png" alt="Tender Light Fragrance"/>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 rightPicContainer">
+        <img src="assets/Tender 2.png" alt="Leaves" class="rightPicture"/>
+      </div>
+    </div>
+    <div class="duskBackground" id="duskBackground3">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskPicture">
+            <img src="assets/Sensuous 1.png" alt="Sensuous Stars Fragrance"/>
+          </div>
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Sensuous Stars</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Sensuous Stars.png" alt="4.0 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Delight in the sensuous tranquility of walking among plum trees under a moonlit sky. In one exhilarating moment, an irresistible breeze takes you sky high, breathlessly floating among swirling stars.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 plumPicture">
+        <img src="assets/Sensuous 2.png" alt="Plums" id="sensuousPicture"/>
+      </div>
+    </div>
+    <div class="duskBackground" id="duskBackground4">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Radiant Mirage</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Radiant Stars.png" alt="4.0 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Envision a timeless road taking you into a new realm of the senses. The more you try to describe it, the more it escapes definition. Creating a mirage, ever present, yet always an adventure just beyond reach.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+          <div class="duskPicture">
+            <img src="assets/Radiant 1.png" alt="Radiant Mirage Fragrance"/>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 rightPicContainer" id="vanillaPic">
+        <img src="assets/Radiant 2.png" alt="Vanilla Flowers"/>
+      </div>
+    </div>
+    <div class="duskBackground" id="duskBackground5">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskPicture">
+            <img src="assets/Blushing 1.png" alt="Blushing Sands Fragrance"/>
+          </div>
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Blushing Sands</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Blushing Stars.png" alt="4.0 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Dreamy as the night, delicate as the dawn. Journey across soft, rose-tinted sands into a warm and welcoming world for the senses. A lush oasis of subtle depths, sensuality and light.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 plumPicture" id="grassPicture">
+        <img src="assets/Blushing 2.png" alt="Grass"/>
+      </div>
+    </div>
+    <div class="duskBackground" id="duskBackground6">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Paradise Moon</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Paradise Stars.png" alt="4.0 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Escape to a moonlit forest filled with unexpected temptations for the senses and rare, tantalizing flowers. Even the air
+              shimmers with the aura of its moon-drenched power, a paradise forever untamable, forever wild.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+          <div class="duskPicture">
+            <img src="assets/Paradise 1.png" alt="Paradise Moon Fragrance"/>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 rightPicContainer" id="yellowPic">
+        <img src="assets/Paradise 2.png" alt="Yellow Flowers"/>
+      </div>
+    </div>
+    <div class="duskBackground" id="duskBackground7">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskPicture">
+            <img src="assets/Desert 1.png" alt="Blushing Sands Fragrance"/>
+          </div>
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Desert Eden</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Desert Stars.png" alt="3.9 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Imagine the breathtaking moment when the sun’s rays spread over the desert sand at dawn. Surrounding you in a warm,
+              luminous aura. Taking you on a new adventure for mind, body and soul.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 plumPicture" id="woodPicture">
+        <img src="assets/Desert 2.png" alt="Wood"/>
+      </div>
+    </div>
+    <div class="duskBackground" id="duskBackground8">
+      <div class="duskContainer">
+        <div class="duskItems">
+          <div class="duskList">
+            <div class="duskListItem duskListTitle">Infinite Sky</div>
+            <div class="duskListItem duskListStars">
+              <img src="assets/Infinite Stars.png" alt="4.1 Stars" />
+            </div>
+            <div class="duskListItem duskListDescr">
+              Rise up into a vast, brilliant sunset sky, turning the world below to amber and gold. Filling your senses with waves of pure happiness and your spirit with hope. When you return to earth you know that you can do anything now. The power is yours.</div>
+              <div class="duskListItem exploreMore">EXPLORE MORE →</div>
+            </div>
+          </div>
+          <div class="duskPicture">
+            <img src="assets/Infinite 1.png" alt="Infinite Sky Fragrance"/>
+          </div>
+        </div>
+      </div>
+      <div class="duskPicture2 rightPicContainer" id="cranberryPic">
+        <img src="assets/Infinite 2.png" alt="Cranberries"/>
+      </div>
+    </div>
+    <div class="textContainer">
+      <div class="textItem">"Find Your Moment, <br>Find Your Fragrance."</div>
+    </div>
+    <div class="fragrancesContainer">
+      <img src="assets/fragrances.png" alt="The Luxury Collection Fragrances"/>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

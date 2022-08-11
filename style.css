@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
+  background-color: #1E324D;
+}
+
+.exploreMore {
+  padding-top: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.videoContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.videoContainer video {
+  min-width: 100%;
+  min-height: 100%;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  object-fit: fill;
+}
+
+source {
+  width: 100%;
+  height: 100%;
+}
+
+.headerContainer {
+  background-color: #1E324D;
+  color: #EAEAF0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  min-width: 100%;
+  max-width: 1200px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  display: none;
+  visibility: hidden;
+}
+
+.headerList {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.headerListItem {
+  cursor: pointer;
+}
+
+.clickContainer {
+  z-index: 2;
+  position: relative;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #1E324D;
+}
+
+.clickText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 500px;
+  cursor: pointer;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  position: relative;
+  top: 330px;
+}
+
+.title {
+  background-color: #1E324D;
+  color: #EAEAF0;
+  z-index: 3;
+  margin: 20px;
+  visibility: hidden;
+  display: none;
+}
+
+.firstTitle {
+  font-family: "Cinzel", serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 48px 40px 20px 40px;
+}
+
+.secondTitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.duskBackground {
+  background-color: #F0EAEA;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 825px;
+}
+
+#duskBackground1 {
+  top: 594px;
+}
+
+#duskBackground2 {
+  top: 291px;
+}
+
+#duskBackground3 {
+  top: -171px;
+  background-color: #EDEAF0;
+}
+
+.duskContainer {
+  display: flex;
+  justify-content: center;
+  padding: 164px 0;
+}
+
+.duskItems {
+  display: flex;
+  gap: 77px;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.duskList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 3;
+  max-width: 1200px;
+}
+
+.duskListTitle {
+  font-size: 96px;
+  font-family: "Cinzel", serif;
+}
+
+.duskListDescr {
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  padding-top: 30px;
+  z-index: 3;
+  max-width: 795px;
+  padding-right: 100px;
+}
+
+.duskPicture2 {
+  position: relative;
+  top: -320px;
+  z-index: 2;
+}
+
+.rightPicContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.rightPicture {
+  position: relative;
+  top: 100px;
+}
+
+#duskPicture {
+  top: 270px;
+}
+
+.tenderBackground {
+  background-color: #F0F0EA;
+}
+
+.plumPicture {
+  position: relative;
+  top: -450px;
+}
+
+#duskBackground4 {
+  background-color: #EAF0EE;
+  top: -448px;
+}
+
+#vanillaPic {
+  top: -700px;
+  right: 100px;
+}
+
+#duskBackground5 {
+  background-color: #F0EDEA;
+  top: -603px;
+}
+
+#grassPicture {
+  position: relative;
+  top: -1321px;
+}
+
+#yellowPic {
+  top: -1802px;
+  left: -30px;
+}
+.duskBackground{
+  display: none;
+}
+
+.duskPicture2 {
+  display: none;
+}
+
+#duskBackground6 {
+  background-color: #F0F0EA;
+  position: relative;
+  top: -1380px;
+}
+
+#duskBackground7 {
+  background-color: #F0EAEA;
+  position: relative;
+  top: -1747px;
+}
+
+#woodPicture {
+  top: -1999px;
+  left: 50px;
+}
+
+#duskBackground8 {
+  background-color: #F0EDEA;
+  top: -1973px;
+}
+
+#cranberryPic {
+  top: -2249px;
+}
+
+.clickDown {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.fragrancesContainer {
+  width: 100%;
+  min-width: 100%;
+  position: relative;
+  top: -2200px;
+}
+.fragrancesContainer>img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Cinzel", serif;
+  font-size: 64px;
+  color: #EAEAF0;
+  position: relative;
+  top: -2200px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.textItem {
+  max-width: 1024px;
+  text-align: center;
+}
